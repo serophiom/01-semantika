@@ -7,9 +7,40 @@
 /* цвет эл. адреса и телефона в footer 255, 255, 255, 0.6*/
 /* цвет героя FFFFFF */
 
-:root {
+/*:root {
   --primary-text-color: rgba(0, 0, 0, 0.8);
   --title-text-color: #000000;
   --accent-color: #18a0fb;
   --primary-white-color: #ffffff;
+} */
+
+:root {
+  --primary-text-color: #212121;
+  --link-color: #2196f3;
+  --primary-paragraph-color: #757575;
+}
+
+.body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.logo-web {
+  color: var(--link-color);
+}
+
+.nav .link {
+  color: var(--primary-text-color);
+}
+
+.paragraph {
+  color: #757575;
+}
+
+adress a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.list {
+  list-style: none;
 }
